@@ -41,7 +41,7 @@ RUN a2enmod rewrite && \
     sed -i 's!/var/www/html!/var/www/html/public!g' /etc/apache2/sites-available/000-default.conf
 
 # Install Node.js and npm
-RUN apt-get install -y nodejs-lts
+RUN apt-get install -y nodejs
 
 # Install Node.js dependencies and compile assets
 RUN npm install && npm run build
