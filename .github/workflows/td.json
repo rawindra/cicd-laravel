@@ -1,9 +1,9 @@
 {
-    "taskDefinitionArn": "arn:aws:ecs:us-east-1:767397806650:task-definition/laravel-app-td:1",
+    "taskDefinitionArn": "arn:aws:ecs:us-east-1:730335291844:task-definition/laravel-app-td:1",
     "containerDefinitions": [
         {
             "name": "laravel-app",
-            "image": "767397806650.dkr.ecr.us-east-1.amazonaws.com/laravel-app:latest",
+            "image": "730335291844.dkr.ecr.us-east-1.amazonaws.com/laravel-app:latest",
             "cpu": 0,
             "portMappings": [
                 {
@@ -36,7 +36,7 @@
         }
     ],
     "family": "laravel-app-td",
-    "executionRoleArn": "arn:aws:iam::767397806650:role/ecsTaskExecutionRole",
+    "executionRoleArn": "arn:aws:iam::730335291844:role/ecsTaskExecutionRole",
     "networkMode": "awsvpc",
     "revision": 1,
     "volumes": [],
@@ -84,7 +84,8 @@
         "cpuArchitecture": "X86_64",
         "operatingSystemFamily": "LINUX"
     },
-    "registeredAt": "2024-12-09T08:40:00.591Z",
-    "registeredBy": "arn:aws:iam::767397806650:user/cloud_user",
+    "registeredAt": "2024-12-10T04:19:55.258Z",
+    "registeredBy": "arn:aws:iam::730335291844:user/cloud_user",
+    "enableFaultInjection": false,
     "tags": []
 }
