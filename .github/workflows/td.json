@@ -1,5 +1,5 @@
 {
-    "taskDefinitionArn": "arn:aws:ecs:us-east-1:730335291844:task-definition/laravel-app-td:1",
+    "taskDefinitionArn": "arn:aws:ecs:us-east-1:730335291844:task-definition/laravel-app-td:2",
     "containerDefinitions": [
         {
             "name": "laravel-app",
@@ -38,7 +38,7 @@
     "family": "laravel-app-td",
     "executionRoleArn": "arn:aws:iam::730335291844:role/ecsTaskExecutionRole",
     "networkMode": "awsvpc",
-    "revision": 1,
+    "revision": 2,
     "volumes": [],
     "status": "ACTIVE",
     "requiresAttributes": [
@@ -84,7 +84,7 @@
         "cpuArchitecture": "X86_64",
         "operatingSystemFamily": "LINUX"
     },
-    "registeredAt": "2024-12-10T04:19:55.258Z",
+    "registeredAt": "2024-12-10T04:46:04.393Z",
     "registeredBy": "arn:aws:iam::730335291844:user/cloud_user",
     "enableFaultInjection": false,
     "tags": []
