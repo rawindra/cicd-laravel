@@ -35,7 +35,7 @@ jobs:
       - name: Build, tag, and push image to Amazon ECR
         id: build-image
         env:
-          ECR_REGISTRY: "730335291844.dkr.ecr.us-east-1.amazonaws.com"
+          ECR_REGISTRY: "730335374737.dkr.ecr.us-east-1.amazonaws.com"
           ECR_REPOSITORY: "laravel-app"
           IMAGE_TAG: latest
         run: |
